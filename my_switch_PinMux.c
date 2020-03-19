@@ -96,7 +96,7 @@ int main(void)
 			}
 			else
 			{
-				GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_1, 0x2);			// red LED on
+				GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_1, 0x02);			// red LED on
 			}
 		}
 }
