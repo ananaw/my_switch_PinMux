@@ -83,7 +83,8 @@ int main(void)
 	while(1)
 	{
 	
-		// Delay for a bit	
+		// Delay for a bit, ((2M-1)*3 +2)/16MHz
+		// SysCtlDelay(9999998.67);
 		SysCtlDelay(2000000); 
 		SysCtlDelay(2000000); 
 		SysCtlDelay(2000000); 
